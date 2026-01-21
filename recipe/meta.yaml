@@ -1,4 +1,4 @@
-{% set version = "0.2.6" %}
+{% set version = "0.2.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RLumShiny_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RLumShiny/RLumShiny_{{ version }}.tar.gz
-  sha256: 20e082369f8907a7ae8c92525511b60af3fa220660ab1b5278ad78d8915cf906
+  sha256: 30bc86d560b62eab22be424407530ea37961a2e2899722182c228d86dabec940
 
 build:
   number: 0
